@@ -1,0 +1,14 @@
+Explanation:
+Explanation of the Java Digital Clock:
+
+
+
+
+1. We use Java Swing to build a simple GUI window.
+2. A JLabel is used to display the current time in the format HH:mm:ss.
+3. A Timer is set up to refresh the label every 1000 milliseconds (1 second).
+4. The SimpleDateFormat class formats the current time to display in hours, minutes, and seconds.
+5. The updateClock() method fetches the current time and updates the label.
+6. The constructor sets up the frame, initializes the timer, and makes the frame visible.
+This is a clean and beginner-friendly implementation that demonstrates the use of GUI components and
+timers in Java.
